@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  width: 1000px;
+  height: fit-content;
+  padding-bottom: 15px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.hero {
+  width: fit-content;
+  height: 220px;
+  border: 1px solid black;
+  border-radius: 10px;
+  justify-content: center;
+  padding-bottom: 10px;
+  margin-top: 15px;
+}
+
+.hero p {
+  margin: 5px 0px 10px 10px;
+}
+
+.hero button {
+  display: flex;
+  margin: auto;
+}
+
+#image-box {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 5px;
+}
+
+#image-box img {
+  width: 145px;
+  height: 145px;
+  display: none;
+  margin: auto;
+  border-radius: 15px;
+}
